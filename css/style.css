@@ -1,0 +1,249 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Bitstream Vera Serif Bold";
+
+}
+
+body {
+    font-size: 100%;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    top:0;
+    left:0;
+    background: rgba(255, 255, 255, .92);
+   z-index: 1;
+    
+    
+
+}
+
+#logo {
+     
+    width: 150px;
+    margin: 20px auto;
+    display: block;
+    
+}
+
+
+#wrapper {
+    width:940px;
+    margin:0 auto 20px auto;
+    
+}
+
+nav {
+    height: 50px;
+    background: #86FBFA;
+    clear: both;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 10;
+    margin-bottom: 30px;
+
+    
+    
+}
+
+.nav {
+    display: block;
+    font: 13px Helvetica, Tahoma, serif;
+    text-transform: uppercase;
+    margin: 0 auto; 
+    padding: 0;
+    width:940px;
+/*    display: inline;*/
+}
+
+.nav li {
+    float:left;
+    width:16.6666666%;
+    list-style: none;
+    text-align: center;
+    height: 47px;
+    line-height: 50px;
+}
+
+.nav .button-dropdown {
+    position: relative;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    background-color: #86FBFA;
+    text-decoration: none;
+}
+
+.nav li a span {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    color: #999;
+}
+
+.nav li a:hover, .nav li a.dropdown-toggle.active {
+    background-color: #72D5D5;
+    color: #fff;
+}
+
+.nav li a:hover span, .nav li a.dropdown-toggle.active span {
+    color: #fff;
+}
+
+.nav li .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.nav li .dropdown-menu li{
+    float: none;
+}
+
+.nav li .dropdown-menu.active {
+    display: block;
+}
+
+.nav li .dropdown-menu a {
+    width: 200px;
+}
+
+
+main {
+    width:580px;
+    float: left;
+    
+    
+}
+aside {
+    width:340px;
+    float: right;
+    }
+
+
+aside:before{
+    background:  #E1FEFE;
+    bottom: 0;
+    right:0;
+    top:0;
+    width: 340px;
+    position: absolute;
+    content: "";
+    z-index: -1;
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    margin-left: 20px;
+    margin-top: 5px
+}
+
+aside p {
+    margin-left: 20px
+}
+
+#social {
+    float: right;
+    margin-right: 20px;
+    list-style-type: none;
+    position: relative;
+    bottom: 210px
+    
+    
+}
+
+.container {
+overflow: hidden;  
+position: relative;
+}
+
+.fab {
+    font-size: 2em;
+    color:#72D5D5;
+}
+
+footer {
+    height:50px;
+    line-height:50px;
+    border-top:1px solid black;
+    
+}
+
+footer ul {
+    float:left;
+    
+}
+
+footer li {
+    float:left;
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: .85em;
+    
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+footer p{
+    float: right;
+    clear: both
+}
+
+
+
+/*++++++++TYPOGRAPHY+++++++++*/
+
+
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+      src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+  }
+
+
+h1 {
+    font-size: 2.369em;
+    margin-bottom: 8px;
+    
+    
+}
+
+h2 {
+    font-size:1.777em ;
+    margin-bottom: 8px;
+    font-weight: 200;
+    
+}
+
+h3 {
+    font-size:1.333em ;
+    margin-bottom: 8px;
+}
+
+
+p {
+    margin-bottom: 1em;
+    line-height: 1.5;
+    
+}
+
+main p {
+    
+    
+}
+aside p {
+    font-size: .75em;
+}
